@@ -1,8 +1,9 @@
-// Copyright by Enigma
+// Copyright by AllMightyWeak
 
 #include <database.hpp>
 #include <iostream>
 
+#include "../third-party/PicoSHA2/picosha2.h"
 
 void make_inp_BD(const std::string& directory) {
   const unsigned int NUMBER_OF_COLUMNS = 3;
